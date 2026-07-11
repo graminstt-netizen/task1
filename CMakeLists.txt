@@ -2,6 +2,14 @@ cmake_minimum_required(VERSION 3.15)
 
 project(MyProject C)
 
+if(NOT DEFINED N)
+    set(N 1024 CACHE STRING "Buffer block size N for file reading")
+endif()
+
+message(STATUS ">>> Block size N is configured to: ${N} bytes <<<")
+add_compile_definitions(N=${N})
+
+
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
