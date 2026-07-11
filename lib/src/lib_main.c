@@ -63,7 +63,9 @@ int replace_bytes(FILE *in, FILE *out, const uint8_t *search, size_t search_len,
 
 	uint8_t buffer[N];
 	size_t match_len = 0; // Длина текущего совпадения
-
+	
+// Начинаем побайтовое чтение файла блоками по N байт.
+// Переменная match_len хранит текущее состояние совпадения с искомой последовательностью.
 	while (1)
 	{
 		size_t bytes_read = fread(buffer, 1, N, in);
