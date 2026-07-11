@@ -12,7 +12,7 @@ main.c - главный модуль программы.
 
 
 int main (int argc, char *argv[])
-{
+{// Проверяем, что переданы все 4 обязательных аргумента командной строки
 	if (argc != 5)
 	{
 		fprintf(stderr, "Usage: %s <input_file> <output_file> <search_hex> <replace_hex>\n", argv[0]);
