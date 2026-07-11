@@ -7,51 +7,53 @@ test_lib.c - модуль проверки библиотеки.
 
 #include "lib_main.h"
 #include <assert.h>
+#include <string.h>
 #include <stdio.h>
-#include <string.h> 
 
-void test_hex_to_bytes_valid(void) {
-    uint8_t out[16];
-    size_t out_len = 0;
+// Тестирование корректных сценариев конвертации хекс
+void test_hex_conversion_valid(void) {
+    uint8_t output_buffer[16];
+    size_t decoded_length = 0;
 
-    //test 1 простая строка
-    assert(hex_to_bytes("414243", out, &out_len) == 0);
-    assert(out_len == 3);
-    assert(out[0] == 0x41 && out[1] == 0x42 && out[2] == 0x43);
+    // Тест 1: Простая Hex строка
+    assert(convert_hex_to_bin("414243", output_buffer, &decoded_length) == 0);
+    assert(decoded_length == 3);
+    assert(output_buffer[0] == 0x41 && output_buffer[1] == 0x42 && output_buffer[2] == 0x43);
 
-    //test 2 строка с нулевым байтом посередине
-    assert(hex_to_bytes("410042", out, &out_len) == 0);
-    assert(out_len == 3);
-    assert(out[0] == 0x41 && out[1] == 0x00 && out[2] == 0x42);
+    // Тест 2: Проверка обработки бинарного нуля внутри строки
+    assert(convert_hex_to_bin("410042", output_buffer, &decoded_length) == 0);
+    assert(decoded_length == 3);
+    assert(output_buffer[0] == 0x41 && output_buffer[1] == 0x00 && output_buffer[2] == 0x42);
 
-    //test 3 разный регистр букв
-    assert(hex_to_bytes("aBcdEF", out, &out_len) == 0);
-    assert(out_len == 3);
-    assert(out[0] == 0xAB && out[1] == 0xCD && out[2] == 0xEF);
-
-    printf("test_hex_to_bytes_valid passed!.\n");
+    // Тест 3: Смешанный регистр символов 
+    assert(convert_hex_to_bin("aBcdEF", output_buffer, &decoded_length) == 0);
+    assert(decoded_length == 3);
+    assert(output_buffer[0] == 0xAB && output_buffer[1] == 0xCD && output_buffer[2] == 0xEF);
+    
+    printf("test_hex_conversion_valid passed.\n");
 }
 
-void test_hex_to_bytes_invalid(void) {
-    uint8_t out[16];
-    size_t out_len = 0;
+// Тестирование обработки ошибок и неверных данных
+void test_hex_conversion_invalid(void) {
+    uint8_t output_buffer[16];
+    size_t decoded_length = 0;
 
-    //test 1 нечетная длина строки
-    assert(hex_to_bytes("414", out, &out_len) == -1); 
+    // Тест 1: Нечетная длина строки (ошибка)
+    assert(convert_hex_to_bin("414", output_buffer, &decoded_length) == -1);
 
-    //test 2 недопустимый символ
-    assert(hex_to_bytes("414G", out, &out_len) == -1);
+    // Тест 2: Недопустимый символ в строке (буква G)
+    assert(convert_hex_to_bin("414G", output_buffer, &decoded_length) == -1);
 
-    //test 3 пустые указатели
-    assert(hex_to_bytes(NULL, out, &out_len) == -1);
-
-    printf("test_hex_to_bytes_invalid passed!.\n");
+    // Тест 3: Передача нулевого указателя (NULL)
+    assert(convert_hex_to_bin(NULL, output_buffer, &decoded_length) == -1);
+    
+    printf("test_hex_conversion_invalid passed.\n");
 }
 
 int main(void) {
-    test_hex_to_bytes_valid();
-    test_hex_to_bytes_invalid();
-
-    printf("All initial tests passed!.\n");
+    test_hex_conversion_valid();
+    test_hex_conversion_invalid();
+    
+    printf("All initial tests passed!\n");
     return 0;
 }

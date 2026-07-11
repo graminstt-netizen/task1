@@ -1,0 +1,152 @@
+^C:\USERS\DIMA\GITPROJECT\BUILD\_DEPS\UNITY-SUBBUILD\CMAKEFILES\F5E2C2CC9B7289DF5FCCCDF56AE2048D\UNITY-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/tmp/unity-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DIMA\GITPROJECT\BUILD\_DEPS\UNITY-SUBBUILD\CMAKEFILES\F5E2C2CC9B7289DF5FCCCDF56AE2048D\UNITY-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Dima\gitproject\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/download-unity-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/verify-unity-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/extract-unity-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DIMA\GITPROJECT\BUILD\_DEPS\UNITY-SUBBUILD\CMAKEFILES\F5E2C2CC9B7289DF5FCCCDF56AE2048D\UNITY-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DIMA\GITPROJECT\BUILD\_DEPS\UNITY-SUBBUILD\CMAKEFILES\F5E2C2CC9B7289DF5FCCCDF56AE2048D\UNITY-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DIMA\GITPROJECT\BUILD\_DEPS\UNITY-SUBBUILD\CMAKEFILES\F5E2C2CC9B7289DF5FCCCDF56AE2048D\UNITY-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\Dima\gitproject\build\_deps\unity-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DIMA\GITPROJECT\BUILD\_DEPS\UNITY-SUBBUILD\CMAKEFILES\F5E2C2CC9B7289DF5FCCCDF56AE2048D\UNITY-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\Dima\gitproject\build\_deps\unity-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DIMA\GITPROJECT\BUILD\_DEPS\UNITY-SUBBUILD\CMAKEFILES\F5E2C2CC9B7289DF5FCCCDF56AE2048D\UNITY-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\Dima\gitproject\build\_deps\unity-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DIMA\GITPROJECT\BUILD\_DEPS\UNITY-SUBBUILD\CMAKEFILES\F5E2C2CC9B7289DF5FCCCDF56AE2048D\UNITY-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\Dima\gitproject\build\_deps\unity-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DIMA\GITPROJECT\BUILD\_DEPS\UNITY-SUBBUILD\CMAKEFILES\D21FBAE7E3DE5685B019D9FB00BE5BA9\UNITY-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Dima/gitproject/build/_deps/unity-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/CMakeFiles/Debug/unity-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DIMA\GITPROJECT\BUILD\_DEPS\UNITY-SUBBUILD\CMAKEFILES\5968282401291472850195827F2B765C\UNITY-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DIMA\GITPROJECT\BUILD\_DEPS\UNITY-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Dima/gitproject/build/_deps/unity-subbuild -BC:/Users/Dima/gitproject/build/_deps/unity-subbuild --check-stamp-file C:/Users/Dima/gitproject/build/_deps/unity-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

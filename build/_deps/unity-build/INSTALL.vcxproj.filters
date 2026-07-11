@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Dima\gitproject\build\CMakeFiles\d9a7d1e8e6f12a2190cdd77e67bbb2cc\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8B0AE86F-148F-343F-9BC1-1EBA33AB7908}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

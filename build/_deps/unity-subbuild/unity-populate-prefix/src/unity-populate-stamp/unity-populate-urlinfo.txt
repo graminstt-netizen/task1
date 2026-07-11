@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/download-unity-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/verify-unity-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/extract-unity-populate.cmake
+source_dir=C:/Users/Dima/gitproject/build/_deps/unity-src
+work_dir=C:/Users/Dima/gitproject/build/_deps
+url(s)=https://github.com/ThrowTheSwitch/Unity/archive/refs/tags/v2.6.1.zip
+hash=
+      no_extract=
+
