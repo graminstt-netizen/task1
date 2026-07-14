@@ -13,7 +13,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B6383293-ADD2-3932-9111-3F8B3276393A}</ProjectGuid>
+    <ProjectGuid>{AB51A832-DE38-3892-BB90-62CE608C09C2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -49,11 +49,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Dima/gitproject/build/_deps/unity-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Dima/gitask1/build/_deps/unity-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Dima/gitproject/build/_deps/unity-subbuild -BC:/Users/Dima/gitproject/build/_deps/unity-subbuild --check-stamp-file C:/Users/Dima/gitproject/build/_deps/unity-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Dima/gitask1/build/_deps/unity-subbuild -BC:/Users/Dima/gitask1/build/_deps/unity-subbuild --check-stamp-file C:/Users/Dima/gitask1/build/_deps/unity-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -61,8 +61,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\4.4.0\CMakeSystem.cmake;C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\tmp\unity-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\4.4.0\CMakeSystem.cmake;C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\tmp\unity-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -70,14 +70,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{7640581B-8415-3C0D-8942-5A17B00BFBC6}</Project>
+    <ProjectReference Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{A1606068-B902-338A-91E3-D10E70B9F4A6}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate.vcxproj">
-      <Project>{DEA2B688-26EE-3DCE-9015-3BDB471AA1F4}</Project>
+    <ProjectReference Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate.vcxproj">
+      <Project>{0A8027FB-80CC-33CF-A7E7-9422E25006EF}</Project>
       <Name>unity-populate</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

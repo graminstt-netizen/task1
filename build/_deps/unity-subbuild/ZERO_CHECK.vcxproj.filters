@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\5968282401291472850195827f2b765c\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\1fba84edf7bacdbb1c6b44f919617c4c\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{76E3C22E-6C1D-308B-A00B-D9CCAA809BE6}</UniqueIdentifier>
+      <UniqueIdentifier>{95A2B8F8-121C-3B5B-94EB-FF75620428FC}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

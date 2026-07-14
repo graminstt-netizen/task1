@@ -24,35 +24,55 @@ int main(int argc, char *argv[]) {
     const char *hex_find_str = argv[3];
     const char *hex_replace_str = argv[4];
 
-    size_t hex_find_len = strlen(hex_find_str);
-    size_t hex_replace_len = strlen(hex_replace_str);
+    size_t find_len = 0;
+    size_t rep_len = 0;
+    uint8_t *bytes_to_find = NULL;
+    uint8_t *bytes_to_replace = NULL;
 
-    // Выделяем память под будущие массивы байт
-    uint8_t *bytes_to_find = malloc(hex_find_len / 2 + 1);
-    uint8_t *bytes_to_replace = malloc(hex_replace_len / 2 + 1);
+    // Выделяем память и парсим шаблон поиска (проверяем префикс "0x")
+    if (strncmp(hex_find_str, "0x", 2) == 0) {
+        const char *hex_data = hex_find_str + 2;
+        size_t hex_data_len = strlen(hex_data);
+        bytes_to_find = malloc(hex_data_len / 2 + 1);
+        if (bytes_to_find != NULL) {
+            if (convert_hex_to_bin(hex_data, bytes_to_find, &find_len) != 0) {
+                fprintf(stderr, "Error: Invalid search hex string format.\n");
+                free(bytes_to_find);
+                return EXIT_FAILURE;
+            }
+        }
+    } else {
+        find_len = strlen(hex_find_str);
+        bytes_to_find = malloc(find_len + 1);
+        if (bytes_to_find != NULL) {
+            memcpy(bytes_to_find, hex_find_str, find_len);
+        }
+    }
+
+    // Выделяем память и парсим шаблон замены (проверяем префикс "0x")
+    if (strncmp(hex_replace_str, "0x", 2) == 0) {
+        const char *hex_data = hex_replace_str + 2;
+        size_t hex_data_len = strlen(hex_data);
+        bytes_to_replace = malloc(hex_data_len / 2 + 1);
+        if (bytes_to_replace != NULL) {
+            if (convert_hex_to_bin(hex_data, bytes_to_replace, &rep_len) != 0) {
+                fprintf(stderr, "Error: Invalid replace hex string format.\n");
+                free(bytes_to_find);
+                free(bytes_to_replace);
+                return EXIT_FAILURE;
+            }
+        }
+    } else {
+        rep_len = strlen(hex_replace_str);
+        bytes_to_replace = malloc(rep_len + 1);
+        if (bytes_to_replace != NULL) {
+            memcpy(bytes_to_replace, hex_replace_str, rep_len);
+        }
+    }
 
     // Если система не выделила память, то выходим
     if (bytes_to_find == NULL || bytes_to_replace == NULL) {
         fprintf(stderr, "Error: Memory allocation failed.\n");
-        free(bytes_to_find);
-        free(bytes_to_replace);
-        return EXIT_FAILURE;
-    }
-
-    size_t find_len = 0;
-    size_t rep_len = 0;
-
-    // Конвертируем строку поиска в байты
-    if (convert_hex_to_bin(hex_find_str, bytes_to_find, &find_len) != 0) {
-        fprintf(stderr, "Error: Invalid search hex string format.\n");
-        free(bytes_to_find);
-        free(bytes_to_replace);
-        return EXIT_FAILURE;
-    }
-
-    // Конвертируем строку замены в байты
-    if (convert_hex_to_bin(hex_replace_str, bytes_to_replace, &rep_len) != 0) {
-        fprintf(stderr, "Error: Invalid replace hex string format.\n");
         free(bytes_to_find);
         free(bytes_to_replace);
         return EXIT_FAILURE;

@@ -1,12 +1,12 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/Dima/gitproject/build/cmake_install.cmake",
-		"C:/Users/Dima/gitproject/build/_deps/unity-build/cmake_install.cmake",
-		"C:/Users/Dima/gitproject/build/lib/cmake_install.cmake",
-		"C:/Users/Dima/gitproject/build/lib/tests/cmake_install.cmake",
-		"C:/Users/Dima/gitproject/build/app/cmake_install.cmake",
-		"C:/Users/Dima/gitproject/build/app/tests/cmake_install.cmake"
+		"C:/Users/Dima/gitask1/build/cmake_install.cmake",
+		"C:/Users/Dima/gitask1/build/_deps/unity-build/cmake_install.cmake",
+		"C:/Users/Dima/gitask1/build/lib/cmake_install.cmake",
+		"C:/Users/Dima/gitask1/build/lib/tests/cmake_install.cmake",
+		"C:/Users/Dima/gitask1/build/app/cmake_install.cmake",
+		"C:/Users/Dima/gitask1/build/app/tests/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

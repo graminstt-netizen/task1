@@ -1,6 +1,6 @@
-^C:\USERS\DIMA\GITPROJECT\BUILD\CMAKEFILES\99D172C5A1BA82C00ADDE6D2401B090A\GENERATE.STAMP.RULE
+^C:\USERS\DIMA\GITASK1\BUILD\CMAKEFILES\C4813DE6F692EF57DD33EAEEE6E3B208\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Dima/gitproject -BC:/Users/Dima/gitproject/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Dima/gitproject/build/MyProject.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Dima/gitask1 -BC:/Users/Dima/gitask1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Dima/gitask1/build/MyProject.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\f5e2c2cc9b7289df5fcccdf56ae2048d\unity-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\2a88120762d6053cb4b9e022d5f99b0a\unity-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\f5e2c2cc9b7289df5fcccdf56ae2048d\unity-populate-download.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\2a88120762d6053cb4b9e022d5f99b0a\unity-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\f5e2c2cc9b7289df5fcccdf56ae2048d\unity-populate-update.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\2a88120762d6053cb4b9e022d5f99b0a\unity-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\f5e2c2cc9b7289df5fcccdf56ae2048d\unity-populate-patch.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\2a88120762d6053cb4b9e022d5f99b0a\unity-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\f5e2c2cc9b7289df5fcccdf56ae2048d\unity-populate-configure.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\2a88120762d6053cb4b9e022d5f99b0a\unity-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\f5e2c2cc9b7289df5fcccdf56ae2048d\unity-populate-build.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\2a88120762d6053cb4b9e022d5f99b0a\unity-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\f5e2c2cc9b7289df5fcccdf56ae2048d\unity-populate-install.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\2a88120762d6053cb4b9e022d5f99b0a\unity-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\f5e2c2cc9b7289df5fcccdf56ae2048d\unity-populate-test.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\2a88120762d6053cb4b9e022d5f99b0a\unity-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\d21fbae7e3de5685b019d9fb00be5ba9\unity-populate-complete.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\cb91b107ec72d9b49a562338faa2ab48\unity-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\5968282401291472850195827f2b765c\unity-populate.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\1fba84edf7bacdbb1c6b44f919617c4c\unity-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\unity-populate" />
+    <None Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\unity-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{76E3C22E-6C1D-308B-A00B-D9CCAA809BE6}</UniqueIdentifier>
+      <UniqueIdentifier>{95A2B8F8-121C-3B5B-94EB-FF75620428FC}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

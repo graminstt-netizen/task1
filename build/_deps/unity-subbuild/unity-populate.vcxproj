@@ -10,7 +10,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DEA2B688-26EE-3DCE-9015-3BDB471AA1F4}</ProjectGuid>
+    <ProjectGuid>{0A8027FB-80CC-33CF-A7E7-9422E25006EF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -46,13 +46,13 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\f5e2c2cc9b7289df5fcccdf56ae2048d\unity-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\2a88120762d6053cb4b9e022d5f99b0a\unity-populate-mkdir.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'unity-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/tmp/unity-populate-mkdirs.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Dima/gitask1/build/_deps/unity-subbuild/unity-populate-prefix/tmp/unity-populate-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitask1/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -61,25 +61,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\f5e2c2cc9b7289df5fcccdf56ae2048d\unity-populate-download.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\2a88120762d6053cb4b9e022d5f99b0a\unity-populate-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (download, verify and extract) for 'unity-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Dima\gitproject\build\_deps
+cd C:\Users\Dima\gitask1\build\_deps
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/download-unity-populate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Dima/gitask1/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/download-unity-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/verify-unity-populate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Dima/gitask1/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/verify-unity-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/extract-unity-populate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Dima/gitask1/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/extract-unity-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitask1/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -87,18 +87,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\download-unity-populate.cmake;C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\unity-populate-urlinfo.txt;C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\download-unity-populate.cmake;C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\unity-populate-urlinfo.txt;C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\f5e2c2cc9b7289df5fcccdf56ae2048d\unity-populate-update.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\2a88120762d6053cb4b9e022d5f99b0a\unity-populate-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No update step for 'unity-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-update
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitask1/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -106,18 +106,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\unity-populate-update-info.txt;C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\unity-populate-update-info.txt;C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\f5e2c2cc9b7289df5fcccdf56ae2048d\unity-populate-patch.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\2a88120762d6053cb4b9e022d5f99b0a\unity-populate-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'unity-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitask1/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -125,23 +125,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\unity-populate-patch-info.txt;C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\unity-populate-patch-info.txt;C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\f5e2c2cc9b7289df5fcccdf56ae2048d\unity-populate-configure.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\2a88120762d6053cb4b9e022d5f99b0a\unity-populate-configure.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'unity-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Dima\gitproject\build\_deps\unity-build
+cd C:\Users\Dima\gitask1\build\_deps\unity-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitask1/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -149,23 +149,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\tmp\unity-populate-cfgcmd.txt;C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\tmp\unity-populate-cfgcmd.txt;C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\f5e2c2cc9b7289df5fcccdf56ae2048d\unity-populate-build.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\2a88120762d6053cb4b9e022d5f99b0a\unity-populate-build.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'unity-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Dima\gitproject\build\_deps\unity-build
+cd C:\Users\Dima\gitask1\build\_deps\unity-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitask1/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -173,23 +173,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\f5e2c2cc9b7289df5fcccdf56ae2048d\unity-populate-install.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\2a88120762d6053cb4b9e022d5f99b0a\unity-populate-install.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'unity-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Dima\gitproject\build\_deps\unity-build
+cd C:\Users\Dima\gitask1\build\_deps\unity-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitask1/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -197,23 +197,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\f5e2c2cc9b7289df5fcccdf56ae2048d\unity-populate-test.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\2a88120762d6053cb4b9e022d5f99b0a\unity-populate-test.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'unity-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Dima\gitproject\build\_deps\unity-build
+cd C:\Users\Dima\gitask1\build\_deps\unity-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-test
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitask1/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,21 +221,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\d21fbae7e3de5685b019d9fb00be5ba9\unity-populate-complete.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\cb91b107ec72d9b49a562338faa2ab48\unity-populate-complete.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'unity-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Dima/gitproject/build/_deps/unity-subbuild/CMakeFiles/Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Dima/gitask1/build/_deps/unity-subbuild/CMakeFiles/Debug
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/CMakeFiles/Debug/unity-populate-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitask1/build/_deps/unity-subbuild/CMakeFiles/Debug/unity-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Dima/gitask1/build/_deps/unity-subbuild/unity-populate-prefix/src/unity-populate-stamp/Debug/unity-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -243,13 +243,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-install;C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-mkdir;C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-download;C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-update;C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-patch;C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-configure;C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-build;C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\Debug\unity-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-install;C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-mkdir;C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-download;C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-update;C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-patch;C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-configure;C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-build;C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\src\unity-populate-stamp\Debug\unity-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\Debug\unity-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\5968282401291472850195827f2b765c\unity-populate.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\1fba84edf7bacdbb1c6b44f919617c4c\unity-populate.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
@@ -259,18 +259,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\Debug\unity-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\unity-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\Debug\unity-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\unity-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Dima/gitproject/build/_deps/unity-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Dima/gitask1/build/_deps/unity-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Dima/gitproject/build/_deps/unity-subbuild -BC:/Users/Dima/gitproject/build/_deps/unity-subbuild --check-stamp-file C:/Users/Dima/gitproject/build/_deps/unity-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Dima/gitask1/build/_deps/unity-subbuild -BC:/Users/Dima/gitask1/build/_deps/unity-subbuild --check-stamp-file C:/Users/Dima/gitask1/build/_deps/unity-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -278,19 +278,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\4.4.0\CMakeSystem.cmake;C:\Users\Dima\gitproject\build\_deps\unity-subbuild\unity-populate-prefix\tmp\unity-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.4\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\4.4.0\CMakeSystem.cmake;C:\Users\Dima\gitask1\build\_deps\unity-subbuild\unity-populate-prefix\tmp\unity-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\CMakeFiles\unity-populate">
+    <None Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\CMakeFiles\unity-populate">
     </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Dima\gitproject\build\_deps\unity-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{7640581B-8415-3C0D-8942-5A17B00BFBC6}</Project>
+    <ProjectReference Include="C:\Users\Dima\gitask1\build\_deps\unity-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{A1606068-B902-338A-91E3-D10E70B9F4A6}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Dima\gitproject\build\CMakeFiles\d2df042d79c477dc699661a6fd9b9300\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\Dima\gitask1\build\CMakeFiles\9bbcbf91975f523e1648aa45f3fbda6c\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{8B0AE86F-148F-343F-9BC1-1EBA33AB7908}</UniqueIdentifier>
+      <UniqueIdentifier>{1539E285-66E6-30CB-9A39-EBDD2B1E6C02}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

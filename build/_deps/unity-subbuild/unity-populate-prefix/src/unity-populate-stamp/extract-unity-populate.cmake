@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
 # Make file names absolute:
 #
-get_filename_component(filename "C:/Users/Dima/gitproject/build/_deps/unity-subbuild/unity-populate-prefix/src/v2.6.1.zip" ABSOLUTE)
-get_filename_component(directory "C:/Users/Dima/gitproject/build/_deps/unity-src" ABSOLUTE)
+get_filename_component(filename "C:/Users/Dima/gitask1/build/_deps/unity-subbuild/unity-populate-prefix/src/v2.6.1.zip" ABSOLUTE)
+get_filename_component(directory "C:/Users/Dima/gitask1/build/_deps/unity-src" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'

@@ -20,8 +20,8 @@ project(unity-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(unity-populate
                      "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "TRUE" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "URL" "https://github.com/ThrowTheSwitch/Unity/archive/refs/tags/v2.6.1.zip"
-                    SOURCE_DIR          "C:/Users/Dima/gitproject/build/_deps/unity-src"
-                    BINARY_DIR          "C:/Users/Dima/gitproject/build/_deps/unity-build"
+                    SOURCE_DIR          "C:/Users/Dima/gitask1/build/_deps/unity-src"
+                    BINARY_DIR          "C:/Users/Dima/gitask1/build/_deps/unity-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

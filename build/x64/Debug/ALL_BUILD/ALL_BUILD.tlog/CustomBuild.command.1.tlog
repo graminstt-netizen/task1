@@ -1,6 +1,6 @@
-^C:\USERS\DIMA\GITPROJECT\CMAKELISTS.TXT
+^C:\USERS\DIMA\GITASK1\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Dima/gitproject -BC:/Users/Dima/gitproject/build --check-stamp-file C:/Users/Dima/gitproject/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Dima/gitask1 -BC:/Users/Dima/gitask1/build --check-stamp-file C:/Users/Dima/gitask1/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
