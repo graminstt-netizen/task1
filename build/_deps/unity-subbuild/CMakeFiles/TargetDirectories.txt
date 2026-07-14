@@ -1,3 +1,0 @@
-C:/Users/Dima/gitask1/build/_deps/unity-subbuild/CMakeFiles/unity-populate.dir
-C:/Users/Dima/gitask1/build/_deps/unity-subbuild/CMakeFiles/ALL_BUILD.dir
-C:/Users/Dima/gitask1/build/_deps/unity-subbuild/CMakeFiles/ZERO_CHECK.dir
